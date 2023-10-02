@@ -1,0 +1,26 @@
+<div>
+    <h2>Current Array:</h2>
+    <p>{{ numbersArray.join(', ') }}</p>
+  </div>
+  
+  <div>
+    <button (click)="addNumber()">Add</button>
+    <button (click)="removeNumber()">Remove</button>
+    <button (click)="calculateSum()">Calculate</button>
+  </div>
+  
+  <div *ngIf="showAddInput">
+    <input type="number" [(ngModel)]="newNumber" placeholder="Enter a number">
+    <button (click)="addToArray()">Add</button>
+  </div>
+  
+  <div *ngIf="showRemoveInput">
+    <input type="number" [(ngModel)]="removeIndex" placeholder="Enter index to remove">
+    <button (click)="removeFromArray()">Remove</button>
+  </div>
+  
+  <div>
+    <h2>Sum:</h2>
+    <p>{{ sum }}</p>
+  </div>
+  
