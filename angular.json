@@ -1,0 +1,147 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+<<<<<<< HEAD
+    "angular.io-example": {
+      "projectType": "application",
+=======
+    "dynamic-form-app": {
+      "projectType": "application",
+      "schematics": {},
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+<<<<<<< HEAD
+            "outputPath": "dist",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": ["zone.js"],
+=======
+            "outputPath": "dist/dynamic-form-app",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+<<<<<<< HEAD
+              "browserTarget": "angular.io-example:build:production"
+            },
+            "development": {
+              "browserTarget": "angular.io-example:build:development"
+=======
+              "browserTarget": "dynamic-form-app:build:production"
+            },
+            "development": {
+              "browserTarget": "dynamic-form-app:build:development"
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+<<<<<<< HEAD
+            "browserTarget": "angular.io-example:build"
+=======
+            "browserTarget": "dynamic-form-app:build"
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+<<<<<<< HEAD
+            "polyfills": ["zone.js", "zone.js/testing"],
+=======
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+            "tsConfig": "tsconfig.spec.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+<<<<<<< HEAD
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "angular.io-example:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "angular.io-example:serve:production"
+            }
+          }
+=======
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+        }
+      }
+    }
+  },
+  "cli": {
+<<<<<<< HEAD
+    "analytics": "d9c29093-bef8-41a5-93aa-cd6f833ef5d8"
+=======
+    "analytics": "5c417909-fc77-4cb0-8511-ba644eb9aa97"
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+  }
+}

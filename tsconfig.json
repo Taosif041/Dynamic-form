@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+/* To learn more about this file see: https://angular.io/guide/typescript-configuration. */
+=======
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+<<<<<<< HEAD
+    "useDefineForClassFields": false,
+    "target": "ES2022",
+    "module": "ES2022",
+=======
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

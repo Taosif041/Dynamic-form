@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+/* To learn more about this file see: https://angular.io/guide/typescript-configuration. */
+=======
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+>>>>>>> fa97822c3471ec23bccf30cde04a9f46d91185e3
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine"
+    ]
+  },
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
