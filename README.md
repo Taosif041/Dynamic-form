@@ -11,7 +11,7 @@ The Resume Generator is a web application that allows users to create a resume b
 ## Features
 - Dynamic form for inputting resume details.
 - Real-time preview of the resume as data is entered.
-- Resume generation and download in various formats (e.g., PDF, Word).
+- Resume generation and download in pdf format.
 
 ## Demo
 You can access a live demo of the Resume Generator here: [Link to Demo](https://dynamic-form-resume-builder.netlify.app)
